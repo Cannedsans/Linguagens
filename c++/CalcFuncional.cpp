@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+	float nota_1,nota_2,nota_3,nota_4,calc_media;
+	printf("digite a primeira nota");
+	scanf("%f",&nota_1);
+	printf("digite a segunda nota");
+	scanf("%f",&nota_2);
+	printf("digite a terceira nota");
+	scanf("%f",&nota_3);
+	printf("digite a quarta nota");
+	scanf("%f",&nota_4);
+	calc_media = (nota_1 + nota_2 + nota_3 + nota_4 ) / 4 ;
+	if (calc_media >= 6 )
+	  printf("sua media foi = %f,e foi aprovado",calc_media );
+	else
+	 printf("infelizmente sua media foi =%f, e foi reprovado",calc_media);
+	printf("o resultado e = %f", calc_media);
+}
+
