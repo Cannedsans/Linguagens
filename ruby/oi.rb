@@ -1,1 +1,1 @@
-$ ruby hello_world.rb
+puts "Olá, Mundo!"
